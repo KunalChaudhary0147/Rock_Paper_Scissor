@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -70,12 +69,13 @@ void show_login_menu() {
 
 void show_main_menu() {
     printf("\nROCK PAPER SCISSORS GAME - MAIN MENU\n");
-    printf("1. Play vs Computer\n");
-    printf("2. View Rules\n");
-    printf("3. View Statistics\n");
-    printf("4. Logout\n");
-    printf("5. Exit\n");
-    printf("Enter your choice (1-5): ");
+    printf("1. Local Multiplayer\n");
+    printf("2. VS Computer\n");
+    printf("3. View Rules\n");
+    printf("4. View Statistics\n");
+    printf("5. Logout\n");
+    printf("6. Exit\n");
+    printf("Enter your choice (1-6): ");
 }
 
 void show_guest_menu() {
@@ -217,33 +217,40 @@ void guest_mode() {
     }
 }
 
+// Forward declare the handler functions
+void handle_local_multiplayer_mode();
+void handle_vs_computer_mode();
+
 void logged_in_mode() {
     int running = 1;
-    
+
     while (running) {
         clear_screen();
         show_main_menu();
-        
+
         int choice;
         scanf("%d", &choice);
-        
+
         switch (choice) {
             case 1:
-                play_game();
+                handle_local_multiplayer_mode();
                 break;
             case 2:
-                show_rules();
+                handle_vs_computer_mode();
                 break;
             case 3:
+                show_rules();
+                break;
+            case 4:
                 show_user_stats();
                 printf("\nPress Enter to continue...");
                 getchar();
                 getchar();
                 break;
-            case 4:
+            case 5:
                 running = 0;  // Logout
                 break;
-            case 5:
+            case 6:
                 exit(0);
             default:
                 printf("Invalid choice! Press Enter to try again...");
