@@ -9,3 +9,22 @@
 [Sun Nov 16 15:37:59 2025] User: Kunal, Result: WIN
 [Sun Nov 16 15:38:03 2025] User: Kunal, Result: DRAW
 [Sun Nov 16 15:38:05 2025] User: Kunal, Result: LOSS
+[Wed Dec 17 23:13:32 2025] User: Kunal, Result: LOSS
+[Wed Dec 17 23:13:38 2025] User: Kunal, Result: WIN
+[Wed Dec 17 23:13:43 2025] User: Kunal, Result: LOSS
+[Thu Dec 18 07:39:32 2025] User: Kunal, Result: LOSS
+[Thu Dec 18 07:39:36 2025] User: Kunal, Result: DRAW
+[Thu Dec 18 07:39:37 2025] User: Kunal, Result: DRAW
+[Thu Dec 18 07:39:41 2025] User: Kunal, Result: DRAW
+[Thu Dec 18 07:39:42 2025] User: Kunal, Result: WIN
+[Thu Dec 18 07:39:44 2025] User: Kunal, Result: WIN
+{"user": "Kunal0147", "result": "LOSS", "opponent": "Computer"}
+{"user": "Kunal0147", "result": "LOSS", "opponent": "Computer"}
+{"user": "Kunal0147", "result": "DRAW", "opponent": "Computer"}
+{"user": "Kunal0147", "result": "LOSS", "opponent": "Computer", "timestamp": "2025-12-19T09:46:28.676815"}
+{"user": "Kunal0147", "result": "LOSS", "opponent": "Computer", "timestamp": "2025-12-19T10:04:33.100933"}
+{"user": "Kunal0147", "result": "LOSS", "opponent": "Computer", "timestamp": "2025-12-19T10:19:48.704625"}
+{"user": "Kunal0147", "result": "LOSS", "opponent": "Computer", "timestamp": "2025-12-19T10:50:44.946414"}
+{"user": "Kunal0147", "result": "LOSS", "opponent": "Computer", "timestamp": "2025-12-19T10:50:56.197332"}
+{"user": "Kunal0147", "result": "LOSS", "opponent": "Computer", "timestamp": "2025-12-19T10:51:18.356160"}
+{"user": "Kunal", "result": "DRAW", "opponent": "Computer", "timestamp": "2025-12-19T11:32:03.731393"}

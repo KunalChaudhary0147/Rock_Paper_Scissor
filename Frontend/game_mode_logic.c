@@ -81,9 +81,16 @@ void play_best_of_three() {
             int result = play_round(choice);
             show_score();
             update_user_stats(result);
-            rounds_played++;
-            if (result == 1) player_wins++;
-            else if (result == -1) computer_wins++;
+            if (result == 1) 
+            {
+                player_wins++;
+                rounds_played++;
+            }
+            else if (result == -1) 
+            {
+                computer_wins++;
+                rounds_played++;
+            }
             printf("\nPress Enter to continue...");
             getchar();
             getchar();

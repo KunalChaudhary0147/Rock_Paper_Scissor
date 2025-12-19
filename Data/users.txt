@@ -1,1 +1,2 @@
-Kunal 1234 11 2 5 4
+{"username": "Kunal0147", "password": "Kunal@0147", "played": 5, "wins": 0, "losses": 5, "draws": 0, "max_streak": 0}
+{"username": "Kunal", "password": "Kunak0147#", "played": 1, "wins": 0, "losses": 0, "draws": 0, "max_streak": 0}
